@@ -1,7 +1,7 @@
 ---
 name: HW10 Vega Lite plots, multiple ways
 tools: [Python, HTML, vega-lite, altair]
-image: assets/pngs/cars.png
+image: assets/pngs/building.png
 description: This is a "showcase" project that uses vega-lite for interactive viz!
 custom_js:
   - vega.min
