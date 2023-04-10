@@ -25,8 +25,10 @@ Tessa Chang (chingc4@illinois.edu)
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/dashboard_of_building.json" style="width: 100%"></vegachart>
 
-The histogram plot displays the distribution of the year constructed variable and the count of records represented by each bar. To avoid overcrowding the plot, I have chosen to filter the years and only visualize the most recent 50 years. This allows the user to focus on the more recent data and gain a better understanding of the distribution over time.
+The histogram plot displays the distribution of the year constructed variable, using an ordinal encoding scheme and the count of records represented by each bar. To avoid overcrowding the plot, I have chosen to filter the years and only visualize the most recent 50 years. This allows the user to focus on the more recent data and gain a better understanding of the distribution over time.
+
 The heatmap plot displays two categorical variables, Bldg Status and County, using an ordinal encoding scheme. The color gradient is based on the count of records, with more counts represented by intense colors and fewer counts represented by lighter colors.
+
 To enhance interactivity, the histogram and heatmap plots are connected. By selecting a window in the histogram, the user can filter the count of records within a specific year constructed. The heatmap plot will also filter by building status and county based on the selected year.within the year constructed and also on the building status by county the plot will also filter whose years.
 
 #### Visualization 2
