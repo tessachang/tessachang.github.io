@@ -39,6 +39,18 @@ To enhance interactivity, the histogram and heatmap plots are connected. By sele
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/dashboard.json" style="width: 100%"></vegachart>
 
+Dashboard 2:<br>
+The second dashboard focuses on conveying insights regarding the total number of buildings abandoned, in use, and in progress and their resulting total square footage under a given agency. This dashboard is interactive and selecting a bar in the first upload updated the second plot to show data for the selected agency only.<br>
+<br>
+Data Preprocessing: <br>
+The data used in this dashboard was preprocessed by dropping any rows with the "Year Acquired" or "Year Constructed" equal to 0 since it does not make sense for a building to exist but not have these years associated with it.<br>
+<br>
+Plot1:<br>
+This plot presents the total square footage of the area associated with the various agencies. The total square footage has been calculated as the sum of the square footage of individual buildings under a given Agency. For this visualization, we used the bar chart since it was more intuitive for our use case. The x-axis and y-axis represent the Agency Names and the Square Footage respectively, and these variables have been encoded as ‘Nominal’ and ‘Quantitative’ data types respectively. The color of the bar is governed by a condition. A bar in this plot can be selected by clicking on it. On doing this, the rest of the bars in the plot turn grey to highlight the Agency of interest in blue. Other than the data cleaning, no other transformations we implemented on this data prior to creating this visualization. The sum of the individual square footage was calculated using the function ‘sum()’ within the Altair chart construct. This chart was previously implemented in homework #9 using vegalite in Starboard. <br>
+<br>
+Plot2:<br>
+The second plot in our second dashboard presents the number of buildings that are currently abandoned, in progress or in use. We used the bar chart to represent our insights. The x-axis and y-axis represent the Building Status and the Building count respectively, and these variables have been encoded as ‘Nominal’ and ‘Quantitative’ data types respectively. To match the theme of the previous plot, we used the same blue color for this one. Other than the data cleaning, no other transformations we implemented on this data prior to creating this visualization. The building count was calculated using the function ‘count()’ within Altair’s chart construct. This chart was not implemented as a part of homework #9.
+
 <!-- these are written in a combo of html and liquid -->
 
 <div class="left">
@@ -46,5 +58,5 @@ To enhance interactivity, the histogram and heatmap plots are connected. By sele
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/tessachang/tessachang.github.io/blob/main/python_notebooks/chang-tessa-homework10.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/tessachang/tessachang.github.io/blob/main/python_notebooks/chang-tessa-patki-rhuta-homework10.ipynb" text="The Analysis" %}
 </div>
