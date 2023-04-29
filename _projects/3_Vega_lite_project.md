@@ -18,13 +18,19 @@ custom_js:
 
 Tessa Chang (chingc4@illinois.edu)
 
-</br>
+<br/>
 
 #### Introduction
 
 The Olympic Games is one of the most exciting and highly anticipated sporting events in the world. With over 200 countries participating and more than 40 sports to compete in, it's an event that captures the attention of billions of people worldwide. As a data analyst, I was interested in exploring the rich and extensive dataset of the Olympic Games to answer some key questions. What are the most successful countries in Olympic history? How have each country's medal counts evolved over time, and what is the breakdown by gender? And, which countries dominate in each sport?
 
-</br>
+<br/>
+
+#### Dataset
+
+This dataset contains a wealth of information on the modern Olympic Games, covering all the Games from Athens 1896 to Rio 2016. The data was scraped from www.sports-reference.com in May 2018, and is available for download at https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results.
+
+<br/>
 
 #### Visualization 1
 
@@ -40,7 +46,7 @@ The second plot shows the change of medal over time for the selected country, an
 
 Both charts have a joint filter, which means that when we select a country in one chart, the other chart will update to show the data for that country only. This feature enables us to easily compare the count of every sport for that country with the change of medal over time, and to analyze the data in a more focused way.
 
-</br>
+<br/>
 
 #### Visualization 2
 
@@ -58,7 +64,7 @@ Overall, this chart provides a comprehensive overview of the Olympic Games' hist
 
 <!-- these are written in a combo of html and liquid -->
 
-</br>
+<br/>
 
 <div class="left">
 {% include elements/button.html link="https://raw.githubusercontent.com/tessachang/tessachang.github.io/main/_data/athlete_winner.csv" text="The Data" %}
