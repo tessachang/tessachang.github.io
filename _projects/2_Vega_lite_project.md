@@ -25,6 +25,8 @@ Tessa Chang (chingc4@illinois.edu)
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/dashboard_of_building.json" style="width: 100%"></vegachart>
 
+<vegachart schema-url="{{ site.baseurl }}/assets/json/medals_won_overtime.json" style="width: 100%"></vegachart>
+
 The histogram plot displays the distribution of the year constructed variable, using an ordinal encoding scheme and the count of records represented by each bar. To avoid overcrowding the plot, I have chosen to filter the years and only visualize the most recent 50 years. This allows the user to focus on the more recent data and gain a better understanding of the distribution over time.
 
 The heatmap plot displays two categorical variables, Bldg Status and County, using an ordinal encoding scheme. The color gradient is based on the count of records, with more counts represented by intense colors and fewer counts represented by lighter colors.
