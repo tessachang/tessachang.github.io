@@ -18,23 +18,29 @@ custom_js:
 
 Tessa Chang (chingc4@illinois.edu)
 
+</br>
+
 #### Introduction
 
 The Olympic Games is one of the most exciting and highly anticipated sporting events in the world. With over 200 countries participating and more than 40 sports to compete in, it's an event that captures the attention of billions of people worldwide. As a data analyst, I was interested in exploring the rich and extensive dataset of the Olympic Games to answer some key questions. What are the most successful countries in Olympic history? How have each country's medal counts evolved over time, and what is the breakdown by gender? And, which countries dominate in each sport?
 
+</br>
+
 #### Visualization 1
 
 ```
-<vegachart schema-url="{{ site.baseurl }}/assets/json/medals_won_combined.json" style="width: 40%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/medals_won_combined.json" style="width: 100%"></vegachart>
 ```
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/medals_won_combined.json" style="width: 40%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/medals_won_combined.json" style="width: 100%"></vegachart>
 
 The two charts that have a joint filter of choosing the country provide a more detailed view of the Olympic medal data. The first plot displays the count of every sport that the chosen country has won medals in, providing an overview of the sports in which that country has been successful in the Olympics. This plot can help us identify the strengths and weaknesses of each country in terms of sports, and it can also give us an idea of the sports that are most popular and competitive in the Olympics.
 
 The second plot shows the change of medal over time for the selected country, and the bars are separated by sex using color. This plot helps us understand the trends in the number of medals won by the chosen country over the years, as well as the gender distribution of the medals. By looking at the color of the bars, we can easily see the breakdown of medals by gender, which can help us understand the level of representation of men and women in the Olympics.
 
 Both charts have a joint filter, which means that when we select a country in one chart, the other chart will update to show the data for that country only. This feature enables us to easily compare the count of every sport for that country with the change of medal over time, and to analyze the data in a more focused way.
+
+</br>
 
 #### Visualization 2
 
@@ -52,10 +58,12 @@ Overall, this chart provides a comprehensive overview of the Olympic Games' hist
 
 <!-- these are written in a combo of html and liquid -->
 
+</br>
+
 <div class="left">
 {% include elements/button.html link="https://raw.githubusercontent.com/tessachang/tessachang.github.io/main/_data/athlete_winner.csv" text="The Data" %}
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/tessachang/tessachang.github.io/blob/main/python_notebooks/chang-tessa-patki-rhuta-homework10.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/tessachang/tessachang.github.io/blob/main/python_notebooks/chang-tessa-project_part3.ipynb" text="The Analysis" %}
 </div>
