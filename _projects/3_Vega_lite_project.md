@@ -40,6 +40,8 @@ This dataset contains a wealth of information on the modern Olympic Games, cover
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/medals_won_combined.json" style="width: 100%"></vegachart>
 
+<br/>
+
 The two charts that have a joint filter of choosing the country provide a more detailed view of the Olympic medal data. The first plot displays the count of every sport that the chosen country has won medals in, providing an overview of the sports in which that country has been successful in the Olympics. This plot can help us identify the strengths and weaknesses of each country in terms of sports, and it can also give us an idea of the sports that are most popular and competitive in the Olympics.
 
 The second plot shows the change of medal over time for the selected country, and the bars are separated by sex using color. This plot helps us understand the trends in the number of medals won by the chosen country over the years, as well as the gender distribution of the medals. By looking at the color of the bars, we can easily see the breakdown of medals by gender, which can help us understand the level of representation of men and women in the Olympics.
@@ -55,6 +57,8 @@ Both charts have a joint filter, which means that when we select a country in on
 ```
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/medals_won_by_country.json" style="width: 100%"></vegachart>
+
+<br/>
 
 I created a bar chart that shows the number of medals won by each country in the history of the Olympic Games. Each bar in the chart represents a country, and the height of the bar shows the total number of medals won by that country. Additionally, the color of the bar represents the distribution of medals won by that country - gold, silver, and bronze. This allows us to easily see which countries have the most medals, as well as which countries have the highest number of gold medals, which is often considered the most prestigious.
 
