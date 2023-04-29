@@ -1,7 +1,7 @@
 ---
 name: Exploring Medal Winning Trends in the Olympic Games
 tools: [Python, HTML, vega-lite, altair]
-image: assets/pngs/building.medals.png
+image: assets/pngs/medals.png
 description: Final Project for IS445 Data Visualization
 custom_js:
   - vega.min
@@ -19,10 +19,10 @@ Tessa Chang (chingc4@illinois.edu)
 #### Visualization 1
 
 ```
-<vegachart schema-url="{{ site.baseurl }}/assets/json/medals_won_combined.json" style="width: 80%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/medals_won_combined.json" style="width: 40%"></vegachart>
 ```
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/medals_won_combined.json" style="width: 80%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/medals_won_combined.json" style="width: 40%"></vegachart>
 
 The histogram plot displays the distribution of the year constructed variable, using an ordinal encoding scheme and the count of records represented by each bar. To avoid overcrowding the plot, I have chosen to filter the years and only visualize the most recent 50 years. This allows the user to focus on the more recent data and gain a better understanding of the distribution over time.
 
