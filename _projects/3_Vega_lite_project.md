@@ -1,5 +1,5 @@
 ---
-name: Exploring Medal Winning Trends in the Olympic Games:\ A Data Analysis
+name: Exploring Medal Winning Trends in the Olympic Games: A Data Analysis
 tools: [Python, HTML, vega-lite, altair]
 image: assets/pngs/medals.png
 description: This is the final project of IS445
