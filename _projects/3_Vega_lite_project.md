@@ -80,7 +80,9 @@ However, it is worth noting that hosting an Olympic Games is a massive undertaki
 
 #### Contextual visualization 2
 
-![alt text](http://url/to/img.png)
+![alt text](https://www.datasketch.co/uploads/2-bloomberg.png)
+
+The results of all events and medals won by each country or delegation during the Tokyo 2020 Olympic Games were tracked by Bloomberg and presented in a map-like graph. The United States came out on top for gold medals with a count of 39, closely followed by China with 38. The graph offers an event-by-event breakdown of all the winners and how the medals were distributed across different delegations.
 
 <!-- these are written in a combo of html and liquid -->
 
