@@ -1,8 +1,8 @@
 ---
-name: HW10 Vega Lite plots, multiple ways
+name: Exploring Medal Winning Trends in the Olympic Games
 tools: [Python, HTML, vega-lite, altair]
-image: assets/pngs/building.png
-description: This is a "showcase" project that uses vega-lite for interactive viz!
+image: assets/pngs/building.medals.png
+description: Final Project for IS445 Data Visualization
 custom_js:
   - vega.min
   - vega-lite.min
@@ -10,20 +10,19 @@ custom_js:
   - justcharts
 ---
 
-# HW10 Python+altair+vegalite
+# Exploring Medal Winning Trends in the Olympic Games Python+altair+vegalite
 
-#### Group 7:
+#### Group 10:
 
-Rhuta Patki (rhutap2@illinois.edu)
 Tessa Chang (chingc4@illinois.edu)
 
 #### Visualization 1
 
 ```
-<vegachart schema-url="{{ site.baseurl }}/assets/json/medals_won_combined.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/medals_won_combined.json" style="width: 80%"></vegachart>
 ```
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/medals_won_combined.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/medals_won_combined.json" style="width: 80%"></vegachart>
 
 The histogram plot displays the distribution of the year constructed variable, using an ordinal encoding scheme and the count of records represented by each bar. To avoid overcrowding the plot, I have chosen to filter the years and only visualize the most recent 50 years. This allows the user to focus on the more recent data and gain a better understanding of the distribution over time.
 
@@ -48,7 +47,7 @@ To enhance interactivity, the histogram and heatmap plots are connected. By sele
 <!-- these are written in a combo of html and liquid -->
 
 <div class="left">
-{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/main/data/building_inventory.csv" text="The Data" %}
+{% include elements/button.html link="https://raw.githubusercontent.com/tessachang/tessachang.github.io/main/_data/athlete_winner.csv" text="The Data" %}
 </div>
 
 <div class="right">
