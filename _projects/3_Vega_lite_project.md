@@ -70,6 +70,8 @@ Overall, this chart provides a comprehensive overview of the Olympic Games' hist
 
 #### Contextual visualization 1
 
+source: https://www.kaggle.com/code/joshuaswords/does-hosting-the-olympics-improve-performance
+
 ![alt text](https://www.kaggleusercontent.com/kf/71354869/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..PwGDUbLRABJpSaP4iPjWMg.0cKb64oN3YOW8Hq7reEIpnLixGG1p3OvJSVOWpqDEHRxWTP47fRI-FmCZYXilNQrjykLffywg14MYN4P18V0JFbh6mqL2--D2JOR01XrJS9jsTBQLtcpnsPSF9AsY-SVn7jBTjDnnZNZdPb9M2RVvZmu2k4kb10Yn9gEn1_FJSmoUN88iTEwXy0m7lxLjdn36feqx4XVmjvM3mI9ABb9PTiv7etkUBiypst6elq-v-VJZoo3sGon-pyh-gbMoIsRkPlEpw-YWPHX-8tvTV6z4F0_1lhlk4KcRkBidQoMJOWBMqUvw-gHlBH9GXx6LHq3OAweCwGNCxsXvU1xu2mXON5eInCs_sqfaHSjQhp56XO4A3KCnuxcW_32QTB7MuUYf1-cHPsAanPlm3DlQ1m8dHzn1IeeqjR2godQ0gOiiONOwgte9lcC80FeJ0I3JsSxJBVCbJNlWmrF1GKcRAV0w0Q6TfZkesqYJoYMl1e-m49F4Y2ZFZs8B_6dBTU1Cppc0tGhfm3PehMnbewlebzxuajiWyeBEZuEI5lECZTI-mzQKEsqHU6BlvuwiUzbYgfXNURRvZq7yove-_nSMiz2NuFQQ4ff-8C4wGNXwspkXWnhPi7gQQ54KT-CnGvCByLHU63pXyu6yxEvC6DjRsmGzBdO3MV3xb3FRk614eZhriLGGlk5q5fWCIDfMYalk4WRgWZop_WZDuhzn2iiDtZS0g.C5ghL_Jt6aOQ7xgBiD67Pg/__results___files/__results___33_0.png)
 
 The plot shows that when a country hosts an Olympic Games, their average total medal tally tends to increase significantly compared to their performance in previous games. This suggests that the host country often has a home advantage, perhaps due to factors such as familiarity with the venue, support from the local crowd, and reduced travel and logistical stress. Additionally, host countries may invest more resources and prioritize their athletes' training and development in preparation for the Games, leading to a stronger overall performance.
@@ -79,6 +81,8 @@ However, it is worth noting that hosting an Olympic Games is a massive undertaki
 <br/>
 
 #### Contextual visualization 2
+
+source: https://www.bloomberg.com/graphics/tokyo-2020-summer-olympics-medal-count/
 
 ![alt text](https://www.datasketch.co/uploads/2-bloomberg.png)
 
